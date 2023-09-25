@@ -38,18 +38,18 @@ Note: the "fast compiles" setup is on the next page, so you might want to read t
     git checkout v0.11.0
     ```
 
-3.1. Prerequisites on Pop!_OS:
-
-    ```sh
-    # For latest to work
-    sudo apt install librust-alsa-sys-dev libudev-dev
-    ```
-
 4. Try the examples in the [examples folder](https://github.com/bevyengine/bevy/tree/latest/examples#examples)
 
     ```sh
     cargo run --example breakout
     ```
+
+    1. Prerequisites on Pop!_OS:
+
+        ```sh
+        # For latest to work
+        sudo apt install librust-alsa-sys-dev libudev-dev
+        ```
 
 ### Add Bevy as a Dependency
 
