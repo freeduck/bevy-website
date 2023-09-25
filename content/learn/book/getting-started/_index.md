@@ -43,6 +43,8 @@ Note: the "fast compiles" setup is on the next page, so you might want to read t
     ```sh
     cargo run --example breakout
     ```
+    
+    **NOTE:** https://github.com/bevyengine/bevy/blob/main/docs/linux_dependencies.md
 
     1. Prerequisites on Pop!_OS:
 
